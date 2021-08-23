@@ -32,10 +32,9 @@ public class Solution14 {
             return "";
         }
         String prefix = strs[0];
-        int count = strs.length;
-        for(int i = 0; i < count; i++){
-            prefix = longestCommonPrefix(prefix, strs[i]);
-            if(prefix.length() == 0){
+        for (String str : strs) {
+            prefix = longestCommonPrefix(prefix, str);
+            if (prefix.length() == 0) {
                 break;
             }
         }

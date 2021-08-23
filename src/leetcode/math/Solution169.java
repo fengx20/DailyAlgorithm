@@ -26,7 +26,7 @@ import java.util.Map;
 public class Solution169 {
 
     private Map<Integer, Integer> countNums(int[] nums){
-        Map<Integer, Integer> count = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> count = new HashMap<>();
         for(int num : nums){
             if(!count.containsKey(num)){
                 count.put(num, 1);
@@ -45,6 +45,7 @@ public class Solution169 {
                 majorityEntry = entry;
             }
         }
+        assert majorityEntry != null;
         return majorityEntry.getKey();
     }
 }
