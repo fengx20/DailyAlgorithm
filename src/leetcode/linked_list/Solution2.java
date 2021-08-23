@@ -2,7 +2,7 @@ package leetcode.linked_list;
 
 /**
  * @author Fengx
- * @date 2021/3/25 0025
+ * @date 2021-03-25
  * @description: 2、两数相加
  *
  * 标签：递归、链表、数学
