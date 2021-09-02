@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3268673-0195-4c33-9043-a5cb6eecd82a" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.idea/setting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/arraysandstrings/Solution15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/arraysandstrings/Solution16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/arraysandstrings/Solution20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/arraysandstrings/Solution26.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/arraysandstrings/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/arraysandstrings/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/arraysandstrings/Solution15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/arraysandstrings/Solution15.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
       <recent name="D:\ideaworkspace\DailyAlgorithm\src\leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution20">
+  <component name="RunManager" selected="Application.Solution26">
     <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.tencent.arraysandstrings.Solution1" />
       <module name="DailyAlgorithm" />
@@ -98,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.Test" />
+    <configuration name="Solution26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arraysandstrings.Solution26" />
       <module name="DailyAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.*" />
+          <option name="PATTERN" value="leetcode.arraysandstrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,26 +108,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution26" />
         <item itemvalue="Application.Solution20" />
         <item itemvalue="Application.Solution16" />
         <item itemvalue="Application.Solution15" />
         <item itemvalue="Application.Solution1" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +144,9 @@
       <workItem from="1629792854949" duration="577000" />
       <workItem from="1629795274171" duration="5421000" />
       <workItem from="1630044477605" duration="5412000" />
-      <workItem from="1630316292613" duration="11727000" />
+      <workItem from="1630316292613" duration="14241000" />
+      <workItem from="1630508059128" duration="1196000" />
+      <workItem from="1630568665825" duration="3109000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1625932356521</created>
@@ -179,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629712410517</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1630395357304</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630395357304</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
