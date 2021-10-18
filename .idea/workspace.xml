@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3268673-0195-4c33-9043-a5cb6eecd82a" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/arraysandstrings/Solution26.java" afterDir="false" />
+    <list default="true" id="d3268673-0195-4c33-9043-a5cb6eecd82a" name="Default Changelist" comment="26、删除有序数组的重复项">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/SelectSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/arraysandstrings/Solution15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/arraysandstrings/Solution15.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../fx/U/数据结构与算法代码/demo" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -42,13 +43,13 @@
       <recent name="D:\ideaworkspace\DailyAlgorithm\src\leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution26">
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.tencent.arraysandstrings.Solution1" />
+  <component name="RunManager" selected="Application.InsertSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.BubbleSort" />
       <module name="DailyAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.tencent.arraysandstrings.*" />
+          <option name="PATTERN" value="algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.tencent.arraysandstrings.Solution15" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.InsertSort" />
       <module name="DailyAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.tencent.arraysandstrings.*" />
+          <option name="PATTERN" value="algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.tencent.arraysandstrings.Solution16" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.SelectSort" />
       <module name="DailyAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.tencent.arraysandstrings.*" />
+          <option name="PATTERN" value="algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.Solution26" />
         <item itemvalue="Application.Solution20" />
-        <item itemvalue="Application.Solution16" />
-        <item itemvalue="Application.Solution15" />
-        <item itemvalue="Application.Solution1" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +147,10 @@
       <workItem from="1630044477605" duration="5412000" />
       <workItem from="1630316292613" duration="14241000" />
       <workItem from="1630508059128" duration="1196000" />
-      <workItem from="1630568665825" duration="3109000" />
+      <workItem from="1630568665825" duration="3459000" />
+      <workItem from="1634032270634" duration="5957000" />
+      <workItem from="1634262439461" duration="2285000" />
+      <workItem from="1634521861159" duration="4723000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1625932356521</created>
@@ -183,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630395357304</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="26、删除有序数组的重复项">
+      <created>1630572219189</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1630572219189</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +214,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="26、删除有序数组的重复项" />
+    <option name="LAST_COMMIT_MESSAGE" value="26、删除有序数组的重复项" />
   </component>
 </project>
