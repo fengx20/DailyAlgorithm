@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3268673-0195-4c33-9043-a5cb6eecd82a" name="Default Changelist" comment="26、删除有序数组的重复项">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/SelectSort.java" afterDir="false" />
+    <list default="true" id="d3268673-0195-4c33-9043-a5cb6eecd82a" name="Default Changelist" comment="7">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/arraysandstrings/Solution704.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,15 +34,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../fx/U/数据结构与算法代码/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ideaworkspace\DailyAlgorithm\src\leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertSort">
+  <component name="RunManager" selected="Application.Solution704">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.sort.BubbleSort" />
       <module name="DailyAlgorithm" />
@@ -70,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.sort.SelectSort" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.QuickSort" />
       <module name="DailyAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +83,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arraysandstrings.Solution20" />
+    <configuration name="Solution7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.math.Solution7" />
+      <module name="DailyAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution704" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arraysandstrings.Solution704" />
       <module name="DailyAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -96,37 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arraysandstrings.Solution26" />
-      <module name="DailyAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.arraysandstrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution704" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.Solution7" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.SelectSort" />
-        <item itemvalue="Application.Solution26" />
-        <item itemvalue="Application.Solution20" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +152,13 @@
       <workItem from="1630568665825" duration="3459000" />
       <workItem from="1634032270634" duration="5957000" />
       <workItem from="1634262439461" duration="2285000" />
-      <workItem from="1634521861159" duration="4723000" />
+      <workItem from="1634521861159" duration="5511000" />
+      <workItem from="1639374010580" duration="1584000" />
+      <workItem from="1642750496051" duration="66000" />
+      <workItem from="1648361095696" duration="1482000" />
+      <workItem from="1648430229010" duration="713000" />
+      <workItem from="1656319405233" duration="5405000" />
+      <workItem from="1659956026859" duration="2426000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1625932356521</created>
@@ -194,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630572219189</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="简单排序算法">
+      <created>1634527770302</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634527770302</updated>
+    </task>
+    <task id="LOCAL-00008" summary="7">
+      <created>1639374992386</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639374992386</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +237,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="26、删除有序数组的重复项" />
-    <option name="LAST_COMMIT_MESSAGE" value="26、删除有序数组的重复项" />
+    <MESSAGE value="简单排序算法" />
+    <MESSAGE value="7" />
+    <option name="LAST_COMMIT_MESSAGE" value="7" />
   </component>
 </project>
