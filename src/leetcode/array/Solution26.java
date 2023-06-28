@@ -1,4 +1,4 @@
-package leetcode.arraysandstrings;
+package leetcode.array;
 
 /**
  * @author: Fengx

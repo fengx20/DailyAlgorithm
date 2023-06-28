@@ -1,4 +1,4 @@
-package leetcode.arraysandstrings;
+package leetcode.array;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -30,7 +30,7 @@ import java.util.Map;
 public class Solution1 {
     public static int[] twoSum(int[] nums, int target){
         // map容器
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>(8);
         // 遍历数组
         for(int i = 0; i < nums.length; i++){
             // 判断 map 的 key 里有没有 target 减去数组的一个值的差在不在 map 里，在的话说明数组中存在两个数之和等于 target
